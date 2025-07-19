@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<user_lists>
+    <usageflags>
+        <user name="Dharma">
+            <usage name="Dharma"/>
+        </user>
+        <user name="Others">
+            <usage name="Others"/>
+        </user>
+        <user name="Survivors">
+            <usage name="Survivors"/>
+        </user>
+
+        <user name="Stalkers">
+            <usage name="Stalkers"/>
+        </user>
+        <user name="ClearSky">
+            <usage name="ClearSky"/>
+        </user>
+        <user name="Monolith">
+            <usage name="Monolith"/>
+        </user>
+        <user name="Ecologists">
+            <usage name="Ecologists"/>
+        </user>
+
+        <user name="USArmy">
+            <usage name="USArmy"/>
+        </user>
+        <user name="Lummox">
+            <usage name="Lummox"/>
+        </user>
+        <user name="Hospital">
+            <usage name="Hospital"/>
+        </user>
+        <user name="Domestic">
+            <usage name="Domestic"/>
+        </user>
+
+        <user name="West">
+            <usage name="Dharma"/>
+            <usage name="Others"/>
+            <usage name="Survivors"/>
+        </user>
+        <user name="WestGeneric">
+            <usage name="Others"/>
+            <usage name="Survivors"/>
+        </user>
+        <user name="East">
+            <usage name="Stalkers"/>
+            <usage name="ClearSky"/>
+            <usage name="Monolith"/>
+            <usage name="Ecologists"/>
+        </user>
+    </usageflags>
+    <valueflags />
+</user_lists>

@@ -2,3 +2,6 @@
 **/__pycache__/
 **/*.py
 **/*.ignore.*
+**/*.c
+CEEditor/map
+CEEditor/territoryTypes

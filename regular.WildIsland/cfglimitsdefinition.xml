@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<lists>
+    <categories>
+        <category name="tools"/>
+        <category name="medical"/>
+        <category name="containers"/>
+        <category name="clothes"/>
+        <category name="vehicleParts"/>
+        <category name="food"/>
+        <category name="weapons"/>
+        <category name="books"/>
+    </categories>
+    <tags>
+        <tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+    </tags>
+    <usageflags>
+        <usage name="Dharma"/>
+        <usage name="Others"/>
+        <usage name="Survivors"/>
+
+        <usage name="Stalkers"/>
+        <usage name="ClearSky"/>
+        <usage name="Monolith"/>
+        <usage name="Ecologists"/>
+
+        <usage name="USArmy"/>
+        <usage name="Lummox"/>
+        <usage name="Hospital"/>
+        <usage name="Domestic"/>
+    </usageflags>
+    <valueflags>
+        <value name="Regular"/>
+        <value name="Medium"/>
+        <value name="Hard"/>
+    </valueflags>
+</lists>

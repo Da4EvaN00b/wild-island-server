@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--DayZ CE tool project file-->
+<zg-config>
+    <!--GUI props-->
+    <selected row="0"/>
+    <global>
+        <background file="map.png" rgba="16777215"/>
+        <layer size="5120"/>
+        <world size="5120"/>
+    </global>
+    <areas>
+        <usages/>
+        <values>
+            <value name="Regular"/>
+            <value name="Medium"/>
+            <value name="Hard"/>
+        </values>
+    </areas>
+    <brush color="4294967040" outline="0" outline_color="2" outline_width="1" size="256"/>
+    <!--Layers-->
+    <layers>
+        <layer usage_flags="0" value_flags="1" color="1711341312" visible="1" name="valueFlg_Regular"/>
+        <layer usage_flags="0" value_flags="2" color="1728052992" visible="1" name="valueFlg_Medium"/>
+        <layer usage_flags="0" value_flags="4" color="1727987712" visible="1" name="valueFlg_Hard"/>
+    </layers>
+    <!--Territories-->
+    <territory-type-list>
+        <territory-type name="polarbear_territories">
+            <territory name="PolarBear" visible="1" color="2378088126">
+                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="2738.57" z="2513.64" r="70" d="2"/>
+                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="2195.99" z="2039" r="120" d="2"/>
+                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="3292.3" z="2327.29" r="120" d="2"/>
+                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="3174.66" z="2974.5" r="70" d="2"/>
+                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="2525.15" z="2735.46" r="70" d="2"/>
+            </territory>
+            <territory name="PolarBear" visible="1" color="2378088126">
+                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="2082.68" z="3476.04" r="100" d="2"/>
+                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="1826.18" z="3414.95" r="100" d="2"/>
+            </territory>
+        </territory-type>
+        <territory-type name="zombie_territories">
+            <territory name="ClearSky" visible="1" color="3003187161">
+                <zone name="InfectedClearSky" smin="0" smax="0" dmin="1" dmax="2" x="1987.08" z="1546.67" r="20" d="2"/>
+                <zone name="InfectedClearSky" smin="0" smax="0" dmin="2" dmax="3" x="3303.33" z="2644.17" r="30" d="2"/>
+                <zone name="InfectedClearSky" smin="0" smax="0" dmin="2" dmax="3" x="2225" z="1611.25" r="30" d="2"/>
+                <zone name="InfectedClearSky" smin="0" smax="0" dmin="1" dmax="2" x="2360" z="1765" r="30" d="2"/>
+                <zone name="InfectedClearSky" smin="0" smax="0" dmin="0" dmax="1" x="2065" z="1586.25" r="20" d="2"/>
+                <zone name="InfectedClearSky" smin="0" smax="0" dmin="1" dmax="2" x="2092.5" z="1615" r="20" d="2"/>
+                <zone name="InfectedClearSky" smin="0" smax="0" dmin="0" dmax="1" x="2122.5" z="1581.25" r="20" d="2"/>
+                <zone name="InfectedClearSky" smin="0" smax="0" dmin="1" dmax="2" x="1923.75" z="1473.75" r="20" d="2"/>
+                <zone name="InfectedClearSky" smin="0" smax="0" dmin="1" dmax="2" x="1955" z="1467.5" r="20" d="2"/>
+                <zone name="InfectedClearSky" smin="0" smax="0" dmin="1" dmax="2" x="1977.5" z="1466.25" r="20" d="2"/>
+                <zone name="InfectedClearSky" smin="0" smax="0" dmin="2" dmax="3" x="1988.75" z="1651.25" r="20" d="2"/>
+                <zone name="InfectedClearSky" smin="0" smax="0" dmin="1" dmax="2" x="1988.75" z="1680" r="30" d="2"/>
+                <zone name="InfectedClearSky" smin="0" smax="0" dmin="3" dmax="5" x="2113.75" z="1841.25" r="45" d="2"/>
+                <zone name="InfectedClearSky" smin="0" smax="0" dmin="1" dmax="2" x="2226.25" z="1532.5" r="30" d="2"/>
+                <zone name="InfectedClearSky" smin="0" smax="0" dmin="1" dmax="2" x="2175" z="1783.75" r="30" d="2"/>
+                <zone name="InfectedClearSky" smin="0" smax="0" dmin="1" dmax="1" x="2753.75" z="1805" r="20" d="2"/>
+                <zone name="InfectedClearSky" smin="0" smax="0" dmin="2" dmax="4" x="3196.25" z="2907.5" r="20" d="2"/>
+            </territory>
+            <territory name="Dharma" visible="1" color="1728053119">
+                <zone name="InfectedDharma" smin="0" smax="0" dmin="1" dmax="3" x="3033.96" z="2752.71" r="20" d="2"/>
+                <zone name="InfectedDharma" smin="0" smax="0" dmin="0" dmax="1" x="2706.25" z="2403.13" r="15" d="2"/>
+                <zone name="InfectedDharma" smin="0" smax="0" dmin="1" dmax="2" x="2875" z="2696.25" r="30" d="2"/>
+                <zone name="InfectedDharma" smin="0" smax="0" dmin="2" dmax="4" x="2781.25" z="2688.75" r="40" d="2"/>
+                <zone name="InfectedDharma" smin="0" smax="0" dmin="1" dmax="3" x="2781.67" z="2620.83" r="30" d="2"/>
+                <zone name="InfectedDharma" smin="0" smax="0" dmin="1" dmax="2" x="2856.67" z="2672.5" r="30" d="2"/>
+                <zone name="InfectedDharma" smin="0" smax="0" dmin="1" dmax="2" x="2848.33" z="2748.33" r="10" d="2"/>
+                <zone name="InfectedDharma" smin="0" smax="0" dmin="3" dmax="5" x="2236.67" z="3529.17" r="30" d="2"/>
+                <zone name="InfectedDharma" smin="0" smax="0" dmin="2" dmax="4" x="1847.5" z="3519.17" r="30" d="2"/>
+                <zone name="InfectedDharma" smin="0" smax="0" dmin="1" dmax="2" x="2798.33" z="2846.67" r="10" d="2"/>
+                <zone name="InfectedDharma" smin="0" smax="0" dmin="1" dmax="2" x="3178.33" z="2455" r="10" d="2"/>
+            </territory>
+            <territory name="Army" visible="1" color="2147505408">
+                <zone name="InfectedArmy" smin="0" smax="0" dmin="3" dmax="6" x="2873.75" z="2452.5" r="40" d="2"/>
+                <zone name="InfectedArmy" smin="0" smax="0" dmin="2" dmax="4" x="3067.5" z="2078.75" r="40" d="2"/>
+            </territory>
+            <territory name="Survivors" visible="1" color="1722417279">
+                <zone name="InfectedSurvivors" smin="0" smax="0" dmin="2" dmax="4" x="3167.7" z="1683.96" r="30" d="2"/>
+                <zone name="InfectedSurvivors" smin="0" smax="0" dmin="1" dmax="3" x="2440.21" z="2788.96" r="30" d="2"/>
+                <zone name="InfectedSurvivors" smin="0" smax="0" dmin="2" dmax="4" x="1928.75" z="3241.25" r="30" d="2"/>
+                <zone name="InfectedSurvivors" smin="0" smax="0" dmin="1" dmax="3" x="2509.58" z="2300" r="20" d="2"/>
+                <zone name="InfectedSurvivors" smin="0" smax="0" dmin="1" dmax="1" x="2520" z="1981.88" r="20" d="2"/>
+            </territory>
+            <territory name="Monolith" visible="1" color="3431499912">
+                <zone name="InfectedMonolith" smin="0" smax="0" dmin="2" dmax="4" x="2822.5" z="2226.25" r="30" d="2"/>
+                <zone name="InfectedMonolith" smin="0" smax="0" dmin="1" dmax="3" x="2150.83" z="2352.08" r="30" d="2"/>
+                <zone name="InfectedMonolith" smin="0" smax="0" dmin="0" dmax="2" x="2307.5" z="2317.5" r="10" d="2"/>
+                <zone name="InfectedMonolith" smin="0" smax="0" dmin="0" dmax="2" x="2245.83" z="2332.5" r="10" d="2"/>
+                <zone name="InfectedMonolith" smin="0" smax="0" dmin="0" dmax="2" x="2276.67" z="2325.83" r="10" d="2"/>
+                <zone name="InfectedMonolith" smin="0" smax="0" dmin="0" dmax="2" x="2255.83" z="2293.33" r="10" d="2"/>
+                <zone name="InfectedMonolith" smin="0" smax="0" dmin="1" dmax="2" x="2208.33" z="2293.33" r="10" d="2"/>
+                <zone name="InfectedMonolith" smin="0" smax="0" dmin="1" dmax="2" x="2351.67" z="2332.5" r="10" d="2"/>
+                <zone name="InfectedMonolith" smin="0" smax="0" dmin="1" dmax="2" x="2354.38" z="2295" r="10" d="2"/>
+                <zone name="InfectedMonolith" smin="0" smax="0" dmin="1" dmax="2" x="2327.5" z="2288.13" r="10" d="2"/>
+                <zone name="InfectedMonolith" smin="0" smax="0" dmin="0" dmax="2" x="2227.5" z="2209.38" r="10" d="2"/>
+                <zone name="InfectedMonolith" smin="0" smax="0" dmin="1" dmax="2" x="2200" z="2217.5" r="10" d="2"/>
+                <zone name="InfectedMonolith" smin="0" smax="0" dmin="2" dmax="4" x="1996.67" z="2306.67" r="30" d="2"/>
+                <zone name="InfectedMonolith" smin="0" smax="0" dmin="2" dmax="5" x="2401.25" z="2607.5" r="30" d="2"/>
+                <zone name="InfectedMonolith" smin="0" smax="0" dmin="2" dmax="4" x="3399.58" z="2474.59" r="20" d="2"/>
+                <zone name="InfectedMonolith" smin="0" smax="0" dmin="2" dmax="4" x="2246.88" z="3386.25" r="20" d="2"/>
+                <zone name="InfectedMonolith" smin="0" smax="0" dmin="1" dmax="2" x="3285" z="2340.83" r="20" d="2"/>
+            </territory>
+            <territory name="Others" visible="1" color="2846534271">
+                <zone name="InfectedOthers" smin="0" smax="0" dmin="2" dmax="4" x="3284.17" z="2142.08" r="30" d="2"/>
+                <zone name="InfectedOthers" smin="0" smax="0" dmin="3" dmax="5" x="2545.25" z="1783.96" r="25" d="2"/>
+                <zone name="InfectedOthers" smin="0" smax="0" dmin="1" dmax="2" x="2526.25" z="1612.5" r="25" d="2"/>
+                <zone name="InfectedOthers" smin="0" smax="0" dmin="1" dmax="2" x="2616.25" z="1638.75" r="25" d="2"/>
+                <zone name="InfectedOthers" smin="0" smax="0" dmin="2" dmax="3" x="3116.67" z="3130.83" r="25" d="2"/>
+                <zone name="InfectedOthers" smin="0" smax="0" dmin="1" dmax="2" x="2625.83" z="1954.17" r="20" d="2"/>
+            </territory>
+            <territory name="Ecologists" visible="1" color="3439307264">
+                <zone name="InfectedEcologists" smin="0" smax="0" dmin="2" dmax="4" x="3284.17" z="2340.83" r="20" d="2"/>
+                <zone name="InfectedEcologists" smin="0" smax="0" dmin="2" dmax="4" x="3385.83" z="2474.17" r="20" d="2"/>
+                <zone name="InfectedEcologists" smin="0" smax="0" dmin="1" dmax="3" x="2180.63" z="2215" r="20" d="2"/>
+                <zone name="InfectedEcologists" smin="0" smax="0" dmin="1" dmax="2" x="2813.33" z="1905" r="40" d="2"/>
+                <zone name="InfectedEcologists" smin="0" smax="0" dmin="1" dmax="2" x="2858.33" z="1950.83" r="30" d="2"/>
+                <zone name="InfectedEcologists" smin="0" smax="0" dmin="1" dmax="2" x="3256.25" z="1863.75" r="30" d="2"/>
+            </territory>
+        </territory-type>
+        <territory-type name="boar_territories">
+            <territory name="Boar" visible="1" color="2138717440">
+                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="2409.23" z="2459.14" r="70" d="2"/>
+                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="2733.52" z="2293.7" r="100" d="2"/>
+                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="3292.11" z="2771.55" r="50" d="2"/>
+            </territory>
+            <territory name="Boar" visible="1" color="2138717440">
+                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="3144.44" z="1828.76" r="80" d="2"/>
+                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="2776.98" z="2047.09" r="80" d="2"/>
+                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="2458.28" z="1818.32" r="70" d="2"/>
+            </territory>
+            <territory name="Boar" visible="1" color="2138717440">
+                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="1986.56" z="3458" r="100" d="2"/>
+                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="1855.32" z="3343.55" r="30" d="2"/>
+            </territory>
+            <territory name="Boar" visible="1" color="2138717440">
+                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="2965.42" z="2639.61" r="50" d="2"/>
+                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="3096.13" z="2836.98" r="30" d="2"/>
+                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="2617.82" z="2709.81" r="50" d="2"/>
+            </territory>
+        </territory-type>
+    </territory-type-list>
+</zg-config>
