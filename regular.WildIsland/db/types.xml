@@ -472,6 +472,18 @@
         <category name="weapons"/>
         <usage user="East"/>
     </type>
+    <type name="Mag_P1_8Rnd">
+        <nominal>8</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>5</min>
+        <quantmin>60</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage user="West"/>
+    </type>
     <type name="WI_Mag_Glock_15Rnd">
         <nominal>4</nominal>
         <lifetime>28800</lifetime>
