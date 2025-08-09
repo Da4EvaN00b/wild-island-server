@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <randompresets>
+		<cargo chance="0.8" name="foodDharmaAirdrop">
+				<item name="WI_BoxCereal_Dharma" chance="0.1" />
+				<item name="WI_RiceDharma" chance="0.1" />
+				<item name="WI_BakedBeansCan_Dharma" chance="0.15" />
+				<item name="WI_BaconCan_Dharma" chance="0.15" />
+				<item name="WI_BeerCan_Dharma" chance="0.4" />
+				<item name="WI_WaterBottle_Dharma" chance="0.1" />
+		</cargo>
 		<cargo chance="0.15" name="foodHermit">
 				<item name="TunaCan" chance="0.11" />
 				<item name="SardinesCan" chance="0.11" />

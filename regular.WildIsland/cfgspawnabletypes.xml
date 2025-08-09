@@ -1,6 +1,72 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 
 <spawnabletypes>
+	<type name="WI_AirdropCrateChest">
+		<cargo preset="foodDharmaAirdrop"/>
+		<cargo preset="foodDharmaAirdrop"/>
+		<cargo preset="foodDharmaAirdrop"/>
+		<cargo preset="foodDharmaAirdrop"/>
+		<cargo preset="foodDharmaAirdrop"/>
+		<cargo preset="foodDharmaAirdrop"/>
+		<cargo preset="foodDharmaAirdrop"/>
+		<cargo preset="foodDharmaAirdrop"/>
+		<cargo preset="foodDharmaAirdrop"/>
+		<cargo preset="foodDharmaAirdrop"/>
+		<cargo preset="foodDharmaAirdrop"/>
+		<cargo preset="foodDharmaAirdrop"/>
+		<cargo preset="foodDharmaAirdrop"/>
+		<cargo preset="foodDharmaAirdrop"/>
+		<cargo preset="foodDharmaAirdrop"/>
+		<cargo preset="foodDharmaAirdrop"/>
+		<cargo preset="foodDharmaAirdrop"/>
+		<cargo preset="foodDharmaAirdrop"/>
+		<cargo preset="foodDharmaAirdrop"/>
+		<cargo preset="foodDharmaAirdrop"/>
+		<cargo preset="foodDharmaAirdrop"/>
+		<cargo preset="foodDharmaAirdrop"/>
+		<cargo preset="foodDharmaAirdrop"/>
+		<cargo preset="foodDharmaAirdrop"/>
+		<cargo preset="foodDharmaAirdrop"/>
+		<cargo preset="foodDharmaAirdrop"/>
+		<cargo preset="foodDharmaAirdrop"/>
+		<cargo preset="foodDharmaAirdrop"/>
+		<cargo preset="foodDharmaAirdrop"/>
+		<cargo preset="foodDharmaAirdrop"/>
+		<cargo chance="1">
+			<item name="WI_M14">
+				<damage min="0" max="0" />
+				<attachments chance="1.00">
+					<item name="WI_M68CCOOptic">
+						<damage min="0" max="0" />
+						<attachments chance="1">
+							<item name="Battery9V" chance="1.00" />
+						</attachments>
+					</item>
+				</attachments>
+				<attachments chance="1.0">
+					<item name="Mag_M14_20Rnd" chance="1.00" />
+				</attachments>
+			</item>
+		</cargo>
+		<cargo chance="1.0">
+			<item name="Mag_M14_20Rnd" chance="1.00" />
+		</cargo>
+		<cargo chance="0.7">
+			<item name="Mag_M14_20Rnd" chance="1.00" />
+		</cargo>
+		<cargo chance="0.3">
+			<item name="Mag_M14_20Rnd" chance="1.00" />
+		</cargo>
+	</type>
+	<type name="WI_M14">
+		<damage min="0" max="0" />
+		<attachments chance="1.00">
+			<item name="WI_M68CCOOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="1.0">
+			<item name="Mag_M14_20Rnd" chance="1.00" />
+		</attachments>
+	</type>
 	<type name="WI_AKS74_Lummox">
 		<damage min="0" max="0" />
 		<attachments chance="1.00">
@@ -141,7 +207,7 @@
 		<cargo chance="1">
 			<item name="WI_SSP99_Pants" />
 		</cargo>
-		<cargo chance="1.2">
+		<cargo chance="1">
 			<item name="WI_SSP99_Jacket" />
 		</cargo>
 	</type>

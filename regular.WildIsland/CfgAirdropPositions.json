@@ -1,0 +1,11 @@
+{
+    "AirdropPositions":
+    [
+       { "Pos": [ 2750, 0, 2484 ], "Radius": 20, "Name": "Swan-Barracks" },
+       { "Pos": [ 2728, 0, 2306 ], "Radius": 20, "Name": "PontoonDepot-Swan" },
+       { "Pos": [ 2980, 0, 2676 ], "Radius": 20, "Name": "Barracks-Flame" },
+       { "Pos": [ 2529, 0, 2754 ], "Radius": 20, "Name": "Barracks-TailSectionCamp" },
+       { "Pos": [ 3309, 0, 2769 ], "Radius": 20, "Name": "Sawmill-Oasis" },
+       { "Pos": [ 2385, 0, 2464 ], "Radius": 20, "Name": "ToxicWasteFacility-KrugAntennaComplex" }
+    ]
+}

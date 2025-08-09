@@ -20,16 +20,7 @@ void main()
     GetGame().GetWorld().SetDate(year, month, day, hour, minute);
 }
 
-class CustomMission: MissionServer
-{
-    // Required with current CfgPlayerSpawnpoints.xml configuration
-    override bool WI_EnableSpawnSelection()
-	{
-		return true;
-	}
-}
-
 Mission CreateCustomMission(string path)
 {
-    return new CustomMission();
+    return new MissionServer();
 }

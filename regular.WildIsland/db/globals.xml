@@ -30,4 +30,12 @@
     <var name="FoodDecay" type="0" value="1"/>
     <var name="ZombieMaxCount" type="0" value="1600"/>
     <var name="ZoneSpawnDist" type="0" value="300"/>
+    
+    <var name="WI_Selection_Enabled" type="0" value="1"/> <!-- spawn selection screen -->
+
+    <var name="WI_Airdrop_MinutesInterval" type="0" value="60"/> <!-- interval between drops, value="0" to disable -->
+    <var name="WI_Airdrop_MinPlayers" type="0" value="1"/> <!-- minimum players required to for drop to occur -->
+    <var name="WI_Airdrop_OpenTime" type="0" value="20"/> <!-- unused -->
+    <var name="WI_Airdrop_CrateCleanupLifetime" type="0" value="300"/> <!-- cleanup time in seconds for crate once it landed -->
+    <var name="WI_Airdrop_AirplaneSpeed" type="0" value="10"/> <!-- speed of airplane -->
 </variables>

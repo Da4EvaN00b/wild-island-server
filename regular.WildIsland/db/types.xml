@@ -75,7 +75,7 @@
         <tag name="shelves"/>
         <usage user="Dharma"/>
     </type>
-    <type name="WI_Rice">
+    <type name="WI_RiceDharma">
         <nominal>5</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
@@ -345,6 +345,17 @@
         <usage user="USArmy"/>
         <value name="Medium"/>
     </type>
+    <type name="WI_M14">
+        <nominal>0</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>60</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+    </type>
     <type name="WI_MP5">
         <nominal>3</nominal>
         <lifetime>28800</lifetime>
@@ -573,6 +584,17 @@
         <category name="weapons"/>
         <usage user="East"/>
         <value name="Hard"/>
+    </type>
+    <type name="Mag_M14_20Rnd">
+        <nominal>0</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>60</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
     </type>
     <type name="WI_Mag_MP5_30Rnd">
         <nominal>4</nominal>
