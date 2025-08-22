@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 
 <spawnabletypes>
+	<type name="WI_SmallTentA">
+		<hoarder />
+	</type>
 	<type name="WI_AirdropCrateChest">
 		<cargo preset="foodDharmaAirdrop"/>
 		<cargo preset="foodDharmaAirdrop"/>

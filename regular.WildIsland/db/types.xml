@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <types>
+    <type name="WI_SmallTentA">
+        <nominal>1</nominal>
+        <lifetime>3888000</lifetime>
+        <restock>43200</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+        <category name="containers"/>
+        <usage name="USArmy" />
+    </type>
     <type name="SparkPlug">
         <nominal>1</nominal>
         <lifetime>14400</lifetime>
@@ -1127,8 +1139,8 @@
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>10</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
+        <quantmin>20</quantmin>
+        <quantmax>40</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
         <category name="medical"/>
@@ -1145,7 +1157,33 @@
         <category name="medical"/>
         <tag name="shelves"/>
     </type>
-    <type name="Morphine">
+    <type name="WI_Bandage">
+        <nominal>15</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>10</min>
+        <quantmin>50</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+        <category name="medical"/>
+        <value name="Medium"/>
+        <value name="Hard"/>
+    </type>
+    <type name="WI_Painkillers">
+        <nominal>15</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>10</min>
+        <quantmin>10</quantmin>
+        <quantmax>20</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="medical"/>
+        <usage user="Hospital"/>
+        <tag name="shelves"/>
+    </type>
+    <type name="WI_Morphine">
         <nominal>5</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
@@ -1157,44 +1195,38 @@
         <category name="medical"/>
         <usage user="Hospital"/>
         <tag name="shelves"/>
+        <value name="Medium"/>
+        <value name="Hard"/>
     </type>
-    <type name="PainkillerTablets">
-        <nominal>10</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
-        <min>7</min>
-        <quantmin>10</quantmin>
-        <quantmax>50</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="medical"/>
-        <tag name="shelves"/>
-    </type>
-    <type name="TetracyclineAntibiotics">
-        <nominal>7</nominal>
+    <type name="WI_Antibiotics">
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>4</min>
+        <min>3</min>
         <quantmin>10</quantmin>
-        <quantmax>50</quantmax>
+        <quantmax>20</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="medical"/>
         <usage user="Hospital"/>
         <tag name="shelves"/>
+        <value name="Medium"/>
+        <value name="Hard"/>
     </type>
-    <type name="BloodBagEmpty">
+    <type name="WI_BloodBag">
         <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>5</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
+        <quantmin>75</quantmin>
+        <quantmax>100</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="medical"/>
         <usage user="Hospital"/>
         <tag name="shelves"/>
+        <value name="Medium"/>
+        <value name="Hard"/>
     </type>
     <type name="BaseballBat">
         <nominal>4</nominal>
