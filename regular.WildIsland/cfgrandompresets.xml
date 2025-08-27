@@ -8,6 +8,13 @@
 				<item name="WI_BeerCan_Dharma" chance="0.4" />
 				<item name="WI_WaterBottle_Dharma" chance="0.1" />
 		</cargo>
+		<cargo chance="0.8" name="medicalDharmaAirdrop">
+				<item name="WI_Bandage" chance="0.4" />
+				<item name="WI_Painkillers" chance="0.2" />
+				<item name="WI_Morphine" chance="0.15" />
+				<item name="WI_Antibiotics" chance="0.15" />
+				<item name="WI_BloodBag" chance="0.1" />
+		</cargo>
 		<cargo chance="0.15" name="foodHermit">
 				<item name="TunaCan" chance="0.11" />
 				<item name="SardinesCan" chance="0.11" />

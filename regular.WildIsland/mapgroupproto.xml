@@ -2291,6 +2291,7 @@
             <category name="medical"/>
             <category name="clothes"/>
             <category name="food"/>
+            <category name="containers"/>
             <tag name="floor"/>
             <tag name="ground"/>
             <point pos="-10.761600 -2.670231 6.128596" range="0.932007" height="2.000000"/>
