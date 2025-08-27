@@ -30,11 +30,21 @@
 		<cargo preset="foodDharmaAirdrop"/>
 		<cargo preset="foodDharmaAirdrop"/>
 		<cargo preset="foodDharmaAirdrop"/>
-		<cargo preset="foodDharmaAirdrop"/>
-		<cargo preset="foodDharmaAirdrop"/>
-		<cargo preset="foodDharmaAirdrop"/>
-		<cargo preset="foodDharmaAirdrop"/>
-		<cargo preset="foodDharmaAirdrop"/>
+		<cargo preset="medicalDharmaAirdrop"/>
+		<cargo preset="medicalDharmaAirdrop"/>
+		<cargo preset="medicalDharmaAirdrop"/>
+		<cargo preset="medicalDharmaAirdrop"/>
+		<cargo preset="medicalDharmaAirdrop"/>
+		<cargo preset="medicalDharmaAirdrop"/>
+		<cargo preset="medicalDharmaAirdrop"/>
+		<cargo preset="medicalDharmaAirdrop"/>
+		<cargo preset="medicalDharmaAirdrop"/>
+		<cargo preset="medicalDharmaAirdrop"/>
+		<cargo preset="medicalDharmaAirdrop"/>
+		<cargo preset="medicalDharmaAirdrop"/>
+		<cargo preset="medicalDharmaAirdrop"/>
+		<cargo preset="medicalDharmaAirdrop"/>
+		<cargo preset="medicalDharmaAirdrop"/>
 		<cargo chance="1">
 			<item name="WI_M14">
 				<damage min="0" max="0" />
@@ -52,12 +62,15 @@
 			</item>
 		</cargo>
 		<cargo chance="1.0">
+			<damage min="0" max="0" />
 			<item name="Mag_M14_20Rnd" chance="1.00" />
 		</cargo>
 		<cargo chance="0.7">
+			<damage min="0" max="0" />
 			<item name="Mag_M14_20Rnd" chance="1.00" />
 		</cargo>
 		<cargo chance="0.3">
+			<damage min="0" max="0" />
 			<item name="Mag_M14_20Rnd" chance="1.00" />
 		</cargo>
 	</type>
