@@ -2,10 +2,15 @@
 <eventposdef>
     <event name="VehicleSailboat">
         <zone smin="0" smax="0" dmin="0" dmax="0" r="0" />
-		<pos x="2280.64" z="2520.1" a="250"/>
+		<pos x="2280.64" y="1" z="2520.1" a="250"/>
 	</event>
     <event name="VehicleDharmaVan">
         <zone smin="0" smax="0" dmin="0" dmax="0" r="0" />
 		<pos x="2852.01" z="2752.97" a="180" />
 	</event>
+    <event name="VehicleSubmarine">
+        <zone smin="0" smax="0" dmin="0" dmax="0" r="0" />
+        <pos x="2793.15" y="1" z="2908.57" a="264" />
+	</event>
+    
 </eventposdef>

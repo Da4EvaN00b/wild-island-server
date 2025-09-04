@@ -218,7 +218,11 @@
 			<item name="SparkPlug" chance="0" />
 		</attachments>
 	</type>
-
+	<type name="WI_Sailboat">
+	</type>
+	<type name="WI_Galaga">
+	</type>
+	
 	<type name="WI_SSP99_Backpack">
 		<cargo chance="1">
 			<item name="WI_SSP99_Pants" />
