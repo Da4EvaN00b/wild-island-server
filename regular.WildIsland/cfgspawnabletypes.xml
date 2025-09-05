@@ -207,16 +207,6 @@
 		<attachments chance="1.00">
 			<item name="WI_S1203_door_3_1" chance="1" />
 		</attachments>
-
-		<attachments chance="1.00">
-			<item name="CarRadiator" chance="0" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="CarBattery" chance="0" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="SparkPlug" chance="0" />
-		</attachments>
 	</type>
 	<type name="WI_Sailboat">
 	</type>
