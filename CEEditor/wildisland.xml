@@ -2,7 +2,7 @@
 <!--DayZ CE tool project file-->
 <zg-config>
     <!--GUI props-->
-    <selected row="0"/>
+    <selected row="2"/>
     <global>
         <background file="map.png" rgba="16777215"/>
         <layer size="5120"/>
@@ -27,15 +27,15 @@
     <territory-type-list>
         <territory-type name="polarbear_territories">
             <territory name="PolarBear" visible="1" color="2378088126">
+                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="2082.68" z="3476.04" r="100" d="2"/>
+                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="1826.18" z="3414.95" r="100" d="2"/>
+            </territory>
+            <territory name="PolarBear" visible="1" color="2378088126">
                 <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="2738.57" z="2513.64" r="70" d="2"/>
                 <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="2195.99" z="2039" r="120" d="2"/>
                 <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="3292.3" z="2327.29" r="120" d="2"/>
                 <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="3174.66" z="2974.5" r="70" d="2"/>
                 <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="2525.15" z="2735.46" r="70" d="2"/>
-            </territory>
-            <territory name="PolarBear" visible="1" color="2378088126">
-                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="2082.68" z="3476.04" r="100" d="2"/>
-                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="1826.18" z="3414.95" r="100" d="2"/>
             </territory>
         </territory-type>
         <territory-type name="zombie_territories">
@@ -58,6 +58,10 @@
                 <zone name="InfectedClearSky" smin="0" smax="0" dmin="1" dmax="1" x="2753.75" z="1805" r="20" d="2"/>
                 <zone name="InfectedClearSky" smin="0" smax="0" dmin="2" dmax="4" x="3196.25" z="2907.5" r="20" d="2"/>
             </territory>
+            <territory name="Army" visible="1" color="2147505408">
+                <zone name="InfectedArmy" smin="0" smax="0" dmin="3" dmax="6" x="2873.75" z="2452.5" r="40" d="2"/>
+                <zone name="InfectedArmy" smin="0" smax="0" dmin="2" dmax="4" x="3067.5" z="2078.75" r="40" d="2"/>
+            </territory>
             <territory name="Dharma" visible="1" color="1728053119">
                 <zone name="InfectedDharma" smin="0" smax="0" dmin="1" dmax="3" x="3033.96" z="2752.71" r="20" d="2"/>
                 <zone name="InfectedDharma" smin="0" smax="0" dmin="0" dmax="1" x="2706.25" z="2403.13" r="15" d="2"/>
@@ -71,9 +75,21 @@
                 <zone name="InfectedDharma" smin="0" smax="0" dmin="1" dmax="2" x="2798.33" z="2846.67" r="10" d="2"/>
                 <zone name="InfectedDharma" smin="0" smax="0" dmin="1" dmax="2" x="3178.33" z="2455" r="10" d="2"/>
             </territory>
-            <territory name="Army" visible="1" color="2147505408">
-                <zone name="InfectedArmy" smin="0" smax="0" dmin="3" dmax="6" x="2873.75" z="2452.5" r="40" d="2"/>
-                <zone name="InfectedArmy" smin="0" smax="0" dmin="2" dmax="4" x="3067.5" z="2078.75" r="40" d="2"/>
+            <territory name="Ecologists" visible="1" color="3439307264">
+                <zone name="InfectedEcologists" smin="0" smax="0" dmin="2" dmax="4" x="3284.17" z="2340.83" r="20" d="2"/>
+                <zone name="InfectedEcologists" smin="0" smax="0" dmin="2" dmax="4" x="3385.83" z="2474.17" r="20" d="2"/>
+                <zone name="InfectedEcologists" smin="0" smax="0" dmin="1" dmax="3" x="2180.63" z="2215" r="20" d="2"/>
+                <zone name="InfectedEcologists" smin="0" smax="0" dmin="1" dmax="2" x="2813.33" z="1905" r="40" d="2"/>
+                <zone name="InfectedEcologists" smin="0" smax="0" dmin="1" dmax="2" x="2858.33" z="1950.83" r="30" d="2"/>
+                <zone name="InfectedEcologists" smin="0" smax="0" dmin="1" dmax="2" x="3256.25" z="1863.75" r="30" d="2"/>
+            </territory>
+            <territory name="Others" visible="1" color="2846534271">
+                <zone name="InfectedOthers" smin="0" smax="0" dmin="2" dmax="4" x="3284.17" z="2142.08" r="30" d="2"/>
+                <zone name="InfectedOthers" smin="0" smax="0" dmin="3" dmax="5" x="2545.25" z="1783.96" r="25" d="2"/>
+                <zone name="InfectedOthers" smin="0" smax="0" dmin="1" dmax="2" x="2526.25" z="1612.5" r="25" d="2"/>
+                <zone name="InfectedOthers" smin="0" smax="0" dmin="1" dmax="2" x="2616.25" z="1638.75" r="25" d="2"/>
+                <zone name="InfectedOthers" smin="0" smax="0" dmin="2" dmax="3" x="3116.67" z="3130.83" r="25" d="2"/>
+                <zone name="InfectedOthers" smin="0" smax="0" dmin="1" dmax="2" x="2625.83" z="1954.17" r="20" d="2"/>
             </territory>
             <territory name="Survivors" visible="1" color="1722417279">
                 <zone name="InfectedSurvivors" smin="0" smax="0" dmin="2" dmax="4" x="3167.7" z="1683.96" r="30" d="2"/>
@@ -101,24 +117,149 @@
                 <zone name="InfectedMonolith" smin="0" smax="0" dmin="2" dmax="4" x="2246.88" z="3386.25" r="20" d="2"/>
                 <zone name="InfectedMonolith" smin="0" smax="0" dmin="1" dmax="2" x="3285" z="2340.83" r="20" d="2"/>
             </territory>
-            <territory name="Others" visible="1" color="2846534271">
-                <zone name="InfectedOthers" smin="0" smax="0" dmin="2" dmax="4" x="3284.17" z="2142.08" r="30" d="2"/>
-                <zone name="InfectedOthers" smin="0" smax="0" dmin="3" dmax="5" x="2545.25" z="1783.96" r="25" d="2"/>
-                <zone name="InfectedOthers" smin="0" smax="0" dmin="1" dmax="2" x="2526.25" z="1612.5" r="25" d="2"/>
-                <zone name="InfectedOthers" smin="0" smax="0" dmin="1" dmax="2" x="2616.25" z="1638.75" r="25" d="2"/>
-                <zone name="InfectedOthers" smin="0" smax="0" dmin="2" dmax="3" x="3116.67" z="3130.83" r="25" d="2"/>
-                <zone name="InfectedOthers" smin="0" smax="0" dmin="1" dmax="2" x="2625.83" z="1954.17" r="20" d="2"/>
+        </territory-type>
+        <territory-type name="goat_territories">
+            <territory name="GoatWestMtNorth" visible="1" color="3047860991">
+                <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="2576" z="2570.67" r="50" d="2"/>
+                <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="2576" z="2444" r="60" d="2"/>
             </territory>
-            <territory name="Ecologists" visible="1" color="3439307264">
-                <zone name="InfectedEcologists" smin="0" smax="0" dmin="2" dmax="4" x="3284.17" z="2340.83" r="20" d="2"/>
-                <zone name="InfectedEcologists" smin="0" smax="0" dmin="2" dmax="4" x="3385.83" z="2474.17" r="20" d="2"/>
-                <zone name="InfectedEcologists" smin="0" smax="0" dmin="1" dmax="3" x="2180.63" z="2215" r="20" d="2"/>
-                <zone name="InfectedEcologists" smin="0" smax="0" dmin="1" dmax="2" x="2813.33" z="1905" r="40" d="2"/>
-                <zone name="InfectedEcologists" smin="0" smax="0" dmin="1" dmax="2" x="2858.33" z="1950.83" r="30" d="2"/>
-                <zone name="InfectedEcologists" smin="0" smax="0" dmin="1" dmax="2" x="3256.25" z="1863.75" r="30" d="2"/>
+            <territory name="GoatHydraMt" visible="1" color="3047860991">
+                <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="1973.33" z="3450.67" r="50" d="2"/>
+            </territory>
+            <territory name="GoatEastMtNorth" visible="1" color="3047860991">
+                <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="3157.33" z="2728" r="50" d="2"/>
+            </territory>
+            <territory name="GoatEastMtSouth" visible="1" color="3047860991">
+                <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="2960" z="2178.67" r="50" d="2"/>
+                <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="3176" z="2100" r="50" d="2"/>
+            </territory>
+            <territory name="GoatEastMtCenter" visible="1" color="3047860991">
+                <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="3102.67" z="2418.67" r="60" d="2"/>
+                <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="3057.33" z="2290.67" r="70" d="2"/>
+            </territory>
+            <territory name="GoatWestMtSouth" visible="1" color="3047860991">
+                <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="2422.67" z="2108" r="50" d="2"/>
+                <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="2404" z="2004" r="50" d="2"/>
+                <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="2452" z="2238.67" r="50" d="2"/>
+            </territory>
+        </territory-type>
+        <territory-type name="sheep_territories">
+            <territory name="SheepCenterNorthWest" visible="1" color="2141912959">
+                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="2298.67" z="2168" r="50" d="2"/>
+                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="2061.33" z="2061.33" r="50" d="2"/>
+                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="2221.33" z="2064" r="70" d="2"/>
+                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="2276" z="2420" r="50" d="2"/>
+                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="2469.33" z="2706.67" r="50" d="2"/>
+                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="2317.33" z="2638.67" r="50" d="2"/>
+                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="2429.33" z="2472" r="60" d="2"/>
+            </territory>
+            <territory name="SheepSouth" visible="1" color="2141912959">
+                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="2634" z="1754" r="50" d="2"/>
+                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="2498" z="1706" r="50" d="2"/>
+                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="2278.67" z="1877.33" r="60" d="2"/>
+                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="3038" z="1996" r="50" d="2"/>
+                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="3292" z="2038" r="50" d="2"/>
+                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="2700" z="1936" r="50" d="2"/>
+            </territory>
+            <territory name="SheepCenterEast" visible="1" color="2141912959">
+                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="3303.67" z="2241" r="50" d="2"/>
+                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="3391" z="2345" r="50" d="2"/>
+                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="3222" z="2370" r="50" d="2"/>
+                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="3372.33" z="2634.33" r="50" d="2"/>
+                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="3305.33" z="2730.67" r="50" d="2"/>
+            </territory>
+            <territory name="SheepCenterNorthCenterEast" visible="1" color="2141912959">
+                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="2767.33" z="2439.33" r="50" d="2"/>
+                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="2708" z="2530.67" r="50" d="2"/>
+                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="2956" z="2604" r="60" d="2"/>
+                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="2922.67" z="2802.67" r="50" d="2"/>
+                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="2636" z="2738.67" r="50" d="2"/>
+                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="2757.33" z="2796" r="50" d="2"/>
+                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="3045.33" z="2821.33" r="50" d="2"/>
+                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="3164" z="3014.67" r="50" d="2"/>
+                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="3138.67" z="2909.33" r="50" d="2"/>
+                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="3284" z="2878.67" r="50" d="2"/>
+            </territory>
+            <territory name="SheepHydra" visible="1" color="2141912959">
+                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="2132" z="3542.67" r="50" d="2"/>
+                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="1742" z="3444" r="50" d="2"/>
+                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="1974" z="3524" r="50" d="2"/>
+            </territory>
+        </territory-type>
+        <territory-type name="chicken_territories">
+            <territory name="ChickenSawmill" visible="1" color="4294967040">
+                <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="3293.67" z="2633.14" r="20" d="2"/>
+            </territory>
+            <territory name="ChickenOldMill" visible="1" color="4294967040">
+                <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="2832.33" z="1956" r="20" d="2"/>
+                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="2824.33" z="1884" r="20" d="2"/>
+                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="2787.33" z="1905" r="20" d="2"/>
+            </territory>
+            <territory name="ChickenOasis" visible="1" color="4294967040">
+                <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="3188.83" z="2906.97" r="10" d="2"/>
+            </territory>
+            <territory name="ChickenHydra" visible="1" color="4294967040">
+                <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="2240.57" z="3531.77" r="10" d="2"/>
+            </territory>
+            <territory name="ChickenBarracks" visible="1" color="4294967040">
+                <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="2857.67" z="2705.14" r="20" d="2"/>
+                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="2835.52" z="2659.86" r="20" d="2"/>
+                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="2778.24" z="2641.71" r="20" d="2"/>
+                <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="2787.43" z="2701.14" r="20" d="2"/>
+            </territory>
+            <territory name="ChickenOthersCamp" visible="1" color="4294967040">
+                <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="2547.5" z="1788.5" r="20" d="2"/>
+            </territory>
+            <territory name="ChickenFlame" visible="1" color="4294967040">
+                <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="3039.23" z="2751.77" r="10" d="2"/>
+            </territory>
+            <territory name="ChickenRuinsCamp" visible="1" color="4294967040">
+                <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="3286.83" z="2145.17" r="20" d="2"/>
+            </territory>
+        </territory-type>
+        <territory-type name="rabbit_territories">
+            <territory name="RabbitEastMtNorth" visible="1" color="4294967295">
+                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="3181.33" z="2786" r="30" d="2"/>
+                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="3148" z="2686.67" r="30" d="2"/>
+            </territory>
+            <territory name="RabbitTawaretHill" visible="1" color="4294967295">
+                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="2478.67" z="1626.22" r="30" d="2"/>
+            </territory>
+            <territory name="RabbitWestMtNorth" visible="1" color="4294967295">
+                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="2556" z="2604" r="30" d="2"/>
+                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="2600" z="2509.33" r="30" d="2"/>
+                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="2562.67" z="2401.33" r="50" d="2"/>
+            </territory>
+            <territory name="RabbitHydraMt" visible="1" color="4294967295">
+                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="1896.67" z="3438.67" r="30" d="2"/>
+                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="2020.67" z="3468" r="50" d="2"/>
+            </territory>
+            <territory name="RabbitEastMtCenter" visible="1" color="4294967295">
+                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="3038.67" z="2287.33" r="30" d="2"/>
+                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="3086" z="2338" r="30" d="2"/>
+                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="3088" z="2430" r="30" d="2"/>
+            </territory>
+            <territory name="RabbitWestMtSouth" visible="1" color="4294967295">
+                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="2405.33" z="1973.33" r="30" d="2"/>
+                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="2445.33" z="2198.66" r="50" d="2"/>
+                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="2425.33" z="2073.33" r="30" d="2"/>
+            </territory>
+            <territory name="RabbitEastMtSouth" visible="1" color="4294967295">
+                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="2928" z="2108" r="30" d="2"/>
+                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="3192" z="1992" r="30" d="2"/>
+                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="3152" z="2182" r="30" d="2"/>
             </territory>
         </territory-type>
         <territory-type name="boar_territories">
+            <territory name="Boar" visible="1" color="2138717440">
+                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="2965.42" z="2639.61" r="50" d="2"/>
+                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="3096.13" z="2836.98" r="30" d="2"/>
+                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="2617.82" z="2709.81" r="50" d="2"/>
+            </territory>
+            <territory name="Boar" visible="1" color="2138717440">
+                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="1986.56" z="3458" r="100" d="2"/>
+                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="1855.32" z="3343.55" r="30" d="2"/>
+            </territory>
             <territory name="Boar" visible="1" color="2138717440">
                 <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="2409.23" z="2459.14" r="70" d="2"/>
                 <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="2733.52" z="2293.7" r="100" d="2"/>
@@ -128,15 +269,6 @@
                 <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="3144.44" z="1828.76" r="80" d="2"/>
                 <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="2776.98" z="2047.09" r="80" d="2"/>
                 <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="2458.28" z="1818.32" r="70" d="2"/>
-            </territory>
-            <territory name="Boar" visible="1" color="2138717440">
-                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="1986.56" z="3458" r="100" d="2"/>
-                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="1855.32" z="3343.55" r="30" d="2"/>
-            </territory>
-            <territory name="Boar" visible="1" color="2138717440">
-                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="2965.42" z="2639.61" r="50" d="2"/>
-                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="3096.13" z="2836.98" r="30" d="2"/>
-                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="2617.82" z="2709.81" r="50" d="2"/>
             </territory>
         </territory-type>
     </territory-type-list>
