@@ -12,10 +12,10 @@ void main()
 
     // Force a specific date and morning time (08:00)
     int year = 2025;
-    int month = 6;
+    int month = 3;
     int day = 7;
-    int hour = 8;
-    int minute = 0;
+    int hour = 10;
+    int minute = 30;
 
     GetGame().GetWorld().SetDate(year, month, day, hour, minute);
 }
