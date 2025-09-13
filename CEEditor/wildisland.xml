@@ -188,66 +188,66 @@
         </territory-type>
         <territory-type name="chicken_territories">
             <territory name="ChickenSawmill" visible="1" color="4294967040">
-                <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="3293.67" z="2633.14" r="20" d="2"/>
+                <zone name="Zone_hen" smin="0" smax="0" dmin="0" dmax="2" x="3293.67" z="2633.14" r="20" d="2"/>
             </territory>
             <territory name="ChickenOldMill" visible="1" color="4294967040">
-                <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="2832.33" z="1956" r="20" d="2"/>
-                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="2824.33" z="1884" r="20" d="2"/>
-                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="2787.33" z="1905" r="20" d="2"/>
+                <zone name="Zone_hen" smin="0" smax="0" dmin="0" dmax="2" x="2832.33" z="1956" r="20" d="2"/>
+                <zone name="Zone_hen" smin="0" smax="0" dmin="0" dmax="2" x="2824.33" z="1884" r="20" d="2"/>
+                <zone name="Zone_hen" smin="0" smax="0" dmin="0" dmax="2" x="2787.33" z="1905" r="20" d="2"/>
             </territory>
             <territory name="ChickenOasis" visible="1" color="4294967040">
-                <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="3188.83" z="2906.97" r="10" d="2"/>
+                <zone name="Zone_hen" smin="0" smax="0" dmin="0" dmax="2" x="3188.83" z="2906.97" r="10" d="2"/>
             </territory>
             <territory name="ChickenHydra" visible="1" color="4294967040">
-                <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="2240.57" z="3531.77" r="10" d="2"/>
+                <zone name="Zone_hen" smin="0" smax="0" dmin="0" dmax="2" x="2240.57" z="3531.77" r="10" d="2"/>
             </territory>
             <territory name="ChickenBarracks" visible="1" color="4294967040">
-                <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="2857.67" z="2705.14" r="20" d="2"/>
-                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="2835.52" z="2659.86" r="20" d="2"/>
-                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="2778.24" z="2641.71" r="20" d="2"/>
-                <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="2787.43" z="2701.14" r="20" d="2"/>
+                <zone name="Zone_hen" smin="0" smax="0" dmin="0" dmax="2" x="2857.67" z="2705.14" r="20" d="2"/>
+                <zone name="Zone_hen" smin="0" smax="0" dmin="0" dmax="2" x="2835.52" z="2659.86" r="20" d="2"/>
+                <zone name="Zone_hen" smin="0" smax="0" dmin="0" dmax="2" x="2778.24" z="2641.71" r="20" d="2"/>
+                <zone name="Zone_hen" smin="0" smax="0" dmin="0" dmax="2" x="2787.43" z="2701.14" r="20" d="2"/>
             </territory>
             <territory name="ChickenOthersCamp" visible="1" color="4294967040">
-                <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="2547.5" z="1788.5" r="20" d="2"/>
+                <zone name="Zone_hen" smin="0" smax="0" dmin="0" dmax="2" x="2547.5" z="1788.5" r="20" d="2"/>
             </territory>
             <territory name="ChickenFlame" visible="1" color="4294967040">
-                <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="3039.23" z="2751.77" r="10" d="2"/>
+                <zone name="Zone_hen" smin="0" smax="0" dmin="0" dmax="2" x="3039.23" z="2751.77" r="10" d="2"/>
             </territory>
             <territory name="ChickenRuinsCamp" visible="1" color="4294967040">
-                <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="3286.83" z="2145.17" r="20" d="2"/>
+                <zone name="Zone_hen" smin="0" smax="0" dmin="0" dmax="2" x="3286.83" z="2145.17" r="20" d="2"/>
             </territory>
         </territory-type>
         <territory-type name="rabbit_territories">
             <territory name="RabbitEastMtNorth" visible="1" color="4294967295">
-                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="3181.33" z="2786" r="30" d="2"/>
-                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="3148" z="2686.67" r="30" d="2"/>
+                <zone name="Zone_Hare" smin="0" smax="0" dmin="0" dmax="2" x="3181.33" z="2786" r="30" d="2"/>
+                <zone name="Zone_Hare" smin="0" smax="0" dmin="0" dmax="2" x="3148" z="2686.67" r="30" d="2"/>
             </territory>
             <territory name="RabbitTawaretHill" visible="1" color="4294967295">
-                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="2478.67" z="1626.22" r="30" d="2"/>
+                <zone name="Zone_Hare" smin="0" smax="0" dmin="0" dmax="2" x="2478.67" z="1626.22" r="30" d="2"/>
             </territory>
             <territory name="RabbitWestMtNorth" visible="1" color="4294967295">
-                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="2556" z="2604" r="30" d="2"/>
-                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="2600" z="2509.33" r="30" d="2"/>
-                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="2562.67" z="2401.33" r="50" d="2"/>
+                <zone name="Zone_Hare" smin="0" smax="0" dmin="0" dmax="2" x="2556" z="2604" r="30" d="2"/>
+                <zone name="Zone_Hare" smin="0" smax="0" dmin="0" dmax="2" x="2600" z="2509.33" r="30" d="2"/>
+                <zone name="Zone_Hare" smin="0" smax="0" dmin="0" dmax="2" x="2562.67" z="2401.33" r="50" d="2"/>
             </territory>
             <territory name="RabbitHydraMt" visible="1" color="4294967295">
-                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="1896.67" z="3438.67" r="30" d="2"/>
-                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="2020.67" z="3468" r="50" d="2"/>
+                <zone name="Zone_Hare" smin="0" smax="0" dmin="0" dmax="2" x="1896.67" z="3438.67" r="30" d="2"/>
+                <zone name="Zone_Hare" smin="0" smax="0" dmin="0" dmax="2" x="2020.67" z="3468" r="50" d="2"/>
             </territory>
             <territory name="RabbitEastMtCenter" visible="1" color="4294967295">
-                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="3038.67" z="2287.33" r="30" d="2"/>
-                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="3086" z="2338" r="30" d="2"/>
-                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="3088" z="2430" r="30" d="2"/>
+                <zone name="Zone_Hare" smin="0" smax="0" dmin="0" dmax="2" x="3038.67" z="2287.33" r="30" d="2"/>
+                <zone name="Zone_Hare" smin="0" smax="0" dmin="0" dmax="2" x="3086" z="2338" r="30" d="2"/>
+                <zone name="Zone_Hare" smin="0" smax="0" dmin="0" dmax="2" x="3088" z="2430" r="30" d="2"/>
             </territory>
             <territory name="RabbitWestMtSouth" visible="1" color="4294967295">
-                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="2405.33" z="1973.33" r="30" d="2"/>
-                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="2445.33" z="2198.66" r="50" d="2"/>
-                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="2425.33" z="2073.33" r="30" d="2"/>
+                <zone name="Zone_Hare" smin="0" smax="0" dmin="0" dmax="2" x="2405.33" z="1973.33" r="30" d="2"/>
+                <zone name="Zone_Hare" smin="0" smax="0" dmin="0" dmax="2" x="2445.33" z="2198.66" r="50" d="2"/>
+                <zone name="Zone_Hare" smin="0" smax="0" dmin="0" dmax="2" x="2425.33" z="2073.33" r="30" d="2"/>
             </territory>
             <territory name="RabbitEastMtSouth" visible="1" color="4294967295">
-                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="2928" z="2108" r="30" d="2"/>
-                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="3192" z="1992" r="30" d="2"/>
-                <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="3152" z="2182" r="30" d="2"/>
+                <zone name="Zone_Hare" smin="0" smax="0" dmin="0" dmax="2" x="2928" z="2108" r="30" d="2"/>
+                <zone name="Zone_Hare" smin="0" smax="0" dmin="0" dmax="2" x="3192" z="1992" r="30" d="2"/>
+                <zone name="Zone_Hare" smin="0" smax="0" dmin="0" dmax="2" x="3152" z="2182" r="30" d="2"/>
             </territory>
         </territory-type>
         <territory-type name="boar_territories">
