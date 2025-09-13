@@ -83,9 +83,9 @@
             <child lootmax="0" lootmin="0" max="3" min="1" type="Animal_SusScrofa"/>
         </children>
     </event>
-    <event name="AmbientHen">
-        <nominal>50</nominal>
-        <min>50</min>
+    <event name="AmbientChicken">
+        <nominal>3</nominal>
+        <min>0</min>
         <max>50</max>
         <lifetime>33</lifetime>
         <restock>15</restock>

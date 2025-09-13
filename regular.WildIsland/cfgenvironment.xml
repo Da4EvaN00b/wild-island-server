@@ -25,7 +25,7 @@
 		</territory>
 
 		<!-- CHICKEN -->
-		<territory type="Ambient" name="AmbientHen" behavior="DZAmbientLifeGroupBeh">
+		<territory type="Ambient" name="AmbientChicken" behavior="DZAmbientLifeGroupBeh">
 			<file usable="chicken_territories" />
 			<!-- different agent types - class has to begin with AgentType:w -->
 			<agent type="Male" chance="1">
