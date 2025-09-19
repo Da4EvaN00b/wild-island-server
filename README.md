@@ -31,3 +31,7 @@ This repo contains all the necessary information and files for any Island server
     <var name="WI_Airdrop_AirplaneSpeed" type="0" value="10"/> <!-- speed of airplane -->
 </variables>
 ```
+
+# Frequently Asked Questions
+
+* **How to change the Airdrop Crate (Periodic Resupply Drop) loot?** In CfgSpawnableTypes.xml, modify the items inside "WI_AirdropCrateChest" type.
